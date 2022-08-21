@@ -1,26 +1,35 @@
 public abstract class Hero implements HavingSuperAbility{
     private int life;
-    private int get_damage;
-    private String power;
+    private int damage;
 
-    public int getGet_damage() {
-        return get_damage;
+    private String superAbility;
+    public Hero(int life, int damage){
+        this.life = life;
+        this.damage = damage;
     }
 
     public int getLife() {
         return life;
     }
 
-    public String getPower() {
-        return power;
-    }
-
     public void setLife(int life) {
         this.life = life;
     }
 
-    public void setGet_damage(int get_damage) {
-        this.get_damage = get_damage;
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    public String getSuperAbility() {
+        return superAbility;
+    }
+
+    public String info(){
+        return getLife() + " " + getDamage();
     }
 
 }

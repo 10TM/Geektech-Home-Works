@@ -1,11 +1,31 @@
-public class Warrior extends Hero{
-    public int healPoints;
-    public String increaseExperience(){
-        double tenPercent = (((10 * healPoints) / 100) + healPoints);
-        return "Уровень здоровья: " + healPoints + " увеличелся на 10% стало: " + tenPercent;
+public class Warrior extends Hero {
+
+    private int healPoints;
+
+    public int increaseExpierence() {
+        int percent = (((10 * healPoints) / 100) + healPoints);
+        return healPoints = percent;
     }
+
+    public Warrior(int life, int damage, int healPoints) {
+        super(life, damage);
+        this.healPoints = healPoints;
+    }
+
+    public void setHealPoints(int healPoints) {
+        this.healPoints = (int) healPoints;
+    }
+
+    public int getHealPoints() {
+        return healPoints;
+    }
+
     @Override
-    public String applySuperAbility() {
-        return "BerserkMood";
+    public void applySuperAbility() {
+        System.out.println("Росомаха ударил супер-ударом");
+    }
+
+    public String info() {
+        return super.info();
     }
 }

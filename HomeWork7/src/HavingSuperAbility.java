@@ -1,3 +1,4 @@
 public interface HavingSuperAbility {
-    public String applySuperAbility();
+    void applySuperAbility();
+
 }
