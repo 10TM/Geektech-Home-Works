@@ -1,3 +1,5 @@
+package kg.nazar;
+
 public class Main {
     public static void main(String[] args) {
         Weapon bossWeapon = new Weapon(WeaponType.MACHINE, " "+"AK-47");

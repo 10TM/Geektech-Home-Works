@@ -1,4 +1,4 @@
-package kg;
+package kg.nazar;
 
 import java.util.Arrays;
 

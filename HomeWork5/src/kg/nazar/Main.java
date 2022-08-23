@@ -1,3 +1,5 @@
+package kg.nazar;
+
 import java.util.Arrays;
 
 public class Main {
