@@ -4,66 +4,34 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //Задание 1
-        double[] N = {3.0, -6.0, 11.0, -2.0, -13.0, 6.0, 11.0, 5.0, -3.0, 34.0, -24.0, -17.0, 34.0, 55.0, -100.00};
-        System.out.println(Arrays.toString(N));
-
-        //Задание 2
-        double fn = 0;
-        double sum = 0;
-        double count = 0;
-        for (double v : N) {
-            count++;
-            if (v == 0) {
-                count++;
-                sum += v;
-            }
-            if (v < 0) {
-                fn = v;
-                for (int j = 0; j < N.length - count; j++) {
-                    sum += N[j];
-                }
-                break;
+        double[] nambers = {-4.2, 3.3, 1.6, -8.8, 2.3, 4.2, -16.7, 2.2, -14.1, 6.2, 2.1, -48.3, 5.6, -66.2, -88, 4};
+        double lang = 0;
+        int reac = 0;
+        boolean bool = false;
+        for (double f : nambers) {
+            if (f < 0) {
+                bool = true;
+            } else if (bool) {
+                reac++;
+                lang += f;
             }
         }
-        System.out.println(fn);
-        System.out.println(sum/count);
+        System.out.println(lang / reac);
 
-//        double sum = 0;
-//        double count = 0;
-//        for (double v : N) {
-//            if (v > 0) {
-//                count++;
-//                sum += v;
-//            }
-//        }
-//        System.out.println("Средне-арифметическое значение положительных чисел: " + (sum / count));
 
-        //Задание 3
-        System.out.println("Финальная вид отсартированного массива: " + Arrays.toString(sort()));
-
+        int[]arrays={-4,-2,6,8,3,2};
+        bubbleSort(arrays);
+        System.out.println(Arrays.toString(arrays));
     }
-
-    public static double[] sort() {
-        double[] N = {3.0, -6.0, 11.0, -2.0, -13.0, 6.0, 11.0, 5.0, -3.0, 34.0, -24.0, -17.0, 34.0, 55.0, -100.00};
-        for (int j = 0; j < N.length; j++) {
-            double min = N[j];
-            int nmin = j;
-            for (int k = j + 1; k < N.length; k++) {
-                if (N[k] < min) {
-                    min = N[k];
-                    nmin = k;
+    public static void bubbleSort(int[] arr){
+        for(int i = arr.length-1 ; i > 0 ; i--){
+            for(int j = 0 ; j < i ; j++){
+                if( arr[j] > arr[j+1] ){
+                    int tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
                 }
             }
-            if (j != nmin) {
-                double tmp = N[j];
-                N[j] = N[nmin];
-                N[nmin] = tmp;
-            }
-            System.out.println("Процесс сортировки: " + Arrays.toString(N));
-            System.out.println("------------------------------------------");
-
         }
-        return N;
     }
 }
