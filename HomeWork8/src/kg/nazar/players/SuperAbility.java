@@ -1,5 +1,0 @@
-package kg.nazar.players;
-
-public enum SuperAbility {
-    HEAL, BOOST, CRITICAL_DAMAGE, SAVE_DAMAGE_AND_REVERT,THUNDER_HUMMER,BLOOD_CONTROL,HACKER_TOOLS,STONE
-}

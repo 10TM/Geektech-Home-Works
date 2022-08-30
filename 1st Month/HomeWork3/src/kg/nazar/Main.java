@@ -19,17 +19,18 @@ public class Main {
         System.out.println(lang / reac);
 
 
-        int[]arrays={-4,-2,6,8,3,2};
+        int[] arrays = {-4, -2, 6, 8, 3, 2};
         bubbleSort(arrays);
         System.out.println(Arrays.toString(arrays));
     }
-    public static void bubbleSort(int[] arr){
-        for(int i = arr.length-1 ; i > 0 ; i--){
-            for(int j = 0 ; j < i ; j++){
-                if( arr[j] > arr[j+1] ){
+
+    public static void bubbleSort(int[] arr) {
+        for (int i = arr.length - 1; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (arr[j] > arr[j + 1]) {
                     int tmp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = tmp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
                 }
             }
         }

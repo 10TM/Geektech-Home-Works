@@ -3,13 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Geektech-Home-Works.iml" filepath="$PROJECT_DIR$/.idea/Geektech-Home-Works.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork2/HomeWork2.iml" filepath="$PROJECT_DIR$/HomeWork2/HomeWork2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork3/HomeWork3.iml" filepath="$PROJECT_DIR$/HomeWork3/HomeWork3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork4/HomeWork4.iml" filepath="$PROJECT_DIR$/HomeWork4/HomeWork4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork5/HomeWork5.iml" filepath="$PROJECT_DIR$/HomeWork5/HomeWork5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork6/HomeWork6.iml" filepath="$PROJECT_DIR$/HomeWork6/HomeWork6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork7/HomeWork7.iml" filepath="$PROJECT_DIR$/HomeWork7/HomeWork7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeWork8/HomeWork8.iml" filepath="$PROJECT_DIR$/HomeWork8/HomeWork8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork2/HomeWork2.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork2/HomeWork2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork3/HomeWork3.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork3/HomeWork3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork4/HomeWork4.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork4/HomeWork4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork5/HomeWork5.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork5/HomeWork5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork6/HomeWork6.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork6/HomeWork6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork7/HomeWork7.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork7/HomeWork7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st Month/HomeWork8/HomeWork8.iml" filepath="$PROJECT_DIR$/1st Month/HomeWork8/HomeWork8.iml" />
     </modules>
   </component>
 </project>

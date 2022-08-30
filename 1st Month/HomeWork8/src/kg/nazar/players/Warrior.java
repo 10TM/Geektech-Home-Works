@@ -1,4 +1,5 @@
 package kg.nazar.players;
+
 import kg.nazar.general.RPG_Game;
 
 public class Warrior extends Hero {

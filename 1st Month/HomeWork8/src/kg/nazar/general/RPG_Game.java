@@ -15,10 +15,10 @@ public class RPG_Game {
         Magic magic = new Magic(260, 15, "Merlin");
         Berserk berserk = new Berserk(280, 20, "Hulk");
         Medic assistant = new Medic(290, 10, 5, "Strange");
-        Thor thor = new Thor(300,40,"Thor");
-        Alukard alukard = new Alukard(250,20,"Blade");
-        Hacker hacker = new Hacker(230,20,"Snowden");
-        Golem golem = new Golem(200,30,"Frank");
+        Thor thor = new Thor(300, 40, "Thor");
+        Alukard alukard = new Alukard(250, 20, "Blade");
+        Hacker hacker = new Hacker(230, 20, "Snowden");
+        Golem golem = new Golem(200, 30, "Frank");
         Hero[] heroes = {warrior, doc, magic, berserk, assistant, thor};
 
         printStatistics(boss, heroes);

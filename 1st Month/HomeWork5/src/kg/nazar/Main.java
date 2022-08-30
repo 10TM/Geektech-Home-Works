@@ -1,7 +1,5 @@
 package kg.nazar;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
     Boss skeleton = new Boss();
