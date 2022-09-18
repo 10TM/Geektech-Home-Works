@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> A = new ArrayList<>();
         ArrayList<String> B = new ArrayList<>();
-        System.out.println("Введите 5 слов: ");
+        System.out.println("Add 5 words: ");
         for (int i = 0; i < 5; i++) {
             A.add(scanner.nextLine());
         }
