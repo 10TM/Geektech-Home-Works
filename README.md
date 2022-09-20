@@ -1,1 +1,2 @@
-# GeekTech-Hom-Works
+# GeekTech-Home-Works
+1st month
